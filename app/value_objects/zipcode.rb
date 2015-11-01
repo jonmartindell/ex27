@@ -1,7 +1,7 @@
 class Zipcode < Value.new(:zipcode)
   def initialize(zipcode)
     super(zipcode)
-    raise ArgumentError, "It should be more like 43081" if !valid?
+    raise ArgumentError, "A zipcode should be more like 43081" if !valid?
   end
 
   def to_s

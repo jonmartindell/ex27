@@ -29,6 +29,7 @@ module Ex27
 
     config.autoload_paths += %W(
       #{config.root}/app/value_objects
+      #{config.root}/app/form_objects
     )
   end
 end
